@@ -1,5 +1,5 @@
-import Lander from '../components/Lander'
-import About from '../components/About'
+import Lander from './components/Lander'
+import About from './components/About'
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
 import { FaArrowRight } from 'react-icons/fa';
-import { Links } from '../utils/Links';
+import { Links } from '../utils/Links'
 
 function Lander() {
   return (
