@@ -2,11 +2,21 @@ import React from 'react';
 
 function About() {
   return (
-    <div className='text-black justify-center text-left flex flex-col h-screen md:ml-[50%]'>
-      <h1 className='text-4xl font-thin'>More About Me</h1>
-      <p className='mt-4'>I am a passionate self-taught programmer with interests in various fields such as sports, business, and startups. I love to explore new technologies and work on exciting projects.</p>
-      <p className='mt-4'>In my free time, I enjoy playing soccer, working out, and keeping up with the latest trends in software development.</p>
-      <p className='mt-4'>Feel free to connect with me on my social media channels listed on the left.</p>
+    <div className='text-black py-10' id='About'>
+      <div className=' text-blue-500 font-bold text-xl md:text-2xl lg:text-3xl md:hidden sticky top-0 w-full bg-white/90 py-2'>
+        //About
+      </div>
+      <div className=' font-thin text-lg leading-relaxed space-y-2'>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae, impedit vero cumque laudantium ipsa amet dolorum, soluta iure eaque, voluptatum esse quisquam eum! Aliquid consectetur sed sunt harum debitis!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae, impedit vero cumque laudantium ipsa amet dolorum, soluta iure eaque, voluptatum esse quisquam eum! Aliquid consectetur sed sunt harum debitis!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae, impedit vero cumque laudantium ipsa amet dolorum, soluta iure eaque, voluptatum esse quisquam eum! Aliquid consectetur sed sunt harum debitis!
+        </p>
+      </div>
     </div>
   );
 }
