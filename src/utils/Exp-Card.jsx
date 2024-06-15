@@ -8,5 +8,5 @@ export const Experience = [
     Date: '/ May 2024 - Present',
     Description: 'Freelancing company i created and developed',
   },
-  
 ]
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
 
 function Projects() {
   return (
@@ -6,6 +7,7 @@ function Projects() {
       <div className='text-blue-500 font-bold text-xl md:text-2xl lg:text-3xl  sticky top-0 w-full bg-white/100 py-2'>
         //Projects
       </div>
+      <ProjectCard />
     </div>
   )
 }
