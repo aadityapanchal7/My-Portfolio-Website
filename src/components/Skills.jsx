@@ -4,7 +4,7 @@ import { Languages, Frameworks, Tools } from '../utils/Skillset'
 
 function Skills() {
   return (
-    <div className=' pt-10 md:pt-0 md:min-h-screen ' id='Skills'>
+    <div className=' pt-14 md:pt-0 lg:pb-20 ' id='Skills'>
 
       <div className=' text-blue-500 font-bold text-xl md:text-2xl lg:text-3xl sticky top-0 w-full bg-white/90 py-2'>
         //Skills
@@ -12,7 +12,7 @@ function Skills() {
 
 
       {/* Languages */}
-      <div className='mt-14'>
+      <div className='md:mt-16 mt-5'>
         <div className='flex items-center'>
         <IoChevronForwardOutline />
           <div className=' font-bold  text-orange-600 '>
