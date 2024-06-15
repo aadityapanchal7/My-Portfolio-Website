@@ -6,7 +6,7 @@ import { routes } from '../utils/Routes'
 
 function Lander() {
   return (
-    <div className='flex flex-col h-screen leading-relaxed text-black md:box-border md:w-1/2 items-start md:pl-20 pl-14 mt-5 md:mt-0 md:fixed justify-center'>
+    <div className='flex flex-col min-h-screen leading-relaxed text-black md:box-border md:w-1/2 items-start md:pl-20 pl-14 mt-5 md:mt-0 md:fixed justify-center'>
       <img src='https://picsum.photos/200' className='rounded-full size-32 mb-6 md:hidden block'/>
       <h1 className='text-4xl md:text-5xl font-thin'>Hey, I am</h1>
       <h1 className='text-4xl font-bold text-blue-500 md:text-6xl text-balance'>Aaditya Panchal</h1>
