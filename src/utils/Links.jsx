@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import React from 'react';
 
 export const Links = [
@@ -12,6 +13,10 @@ export const Links = [
   },
   {
     path: "https://www.linkedin.com/in/aaditya-panchal-3968202b5/",
-    icon: <FaLinkedin className=" size-6 hover:to-white"/>,
+    icon: <FaLinkedin className=" size-6 "/>,
+  },
+  {
+    path: "mailto:aadityapanchal289@gmail.com",
+    icon: <MdEmail className=" size-6 "/>,
   },
 ];
