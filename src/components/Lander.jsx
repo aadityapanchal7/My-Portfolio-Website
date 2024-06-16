@@ -7,7 +7,7 @@ import { routes } from '../utils/Routes'
 function Lander() {
   return (
     <div className='flex flex-col min-h-screen leading-relaxed text-black md:box-border md:w-1/2 items-start md:pl-20 pl-14 md:mt-5 md:fixed justify-center'>
-      <img src='https://picsum.photos/200' className='rounded-full size-32 mb-6 md:hidden block'/>
+      <img src='./assets/Memoji1.jpg' className='rounded-full size-32 md:size-16 mb-6 block shadow-md'/>
       <h1 className='text-4xl md:text-5xl font-thin'>Hey, I am</h1>
       <h1 className='text-4xl font-bold text-blue-500 md:text-6xl text-balance'>Aaditya Panchal</h1>
       <div className='flex flex-col flex-wrap justify-center pt-3 md:flex-row md:px-0 md:justify-start'>
