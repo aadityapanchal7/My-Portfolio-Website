@@ -6,15 +6,15 @@ function Card() {
     <>
     {Experience.map((info, index) => (
             
-    <div key={index} >
-      <div className="cursor-pointer transition-all duration-500 hover:translate-y-2 md:w-96 w-72 h-40 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
-        <img className="stroke-purple-300 shrink-0 rounded-full" src={info.image} alt={info.alt} width={info.width}/>
+    <div key={index} className='mt-5' >
+      <div className="flex flex-row items-center h-40 gap-4 px-4 transition-all duration-500 rounded-lg shadow-xl cursor-pointer hover:translate-y-2 md:w-96 w-72 bg-neutral-50 justify-evenly">
+        <img className="rounded-full stroke-purple-300 shrink-0" src={info.image} alt={info.alt} width={info.width}/>
         <div>
           <span className="font-bold ">{info.Title}</span>
-          <p className=" text-xs text-gray-400 space-x-2" >
+          <p className="space-x-2 text-xs text-gray-400 " >
             {info.Role} {info.Date}
           </p>
-          <p className=' leading-relaxed text-sm text-pretty'>
+          <p className='text-sm leading-relaxed text-pretty'>
             {info.Description}
           </p>
         </div>
