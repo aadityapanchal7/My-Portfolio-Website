@@ -8,11 +8,11 @@ function Projects() {
 
   return (
     <div className=' pt-14 md:min-h-screen' id='Projects'>
-      <div className='text-blue-500 font-bold text-xl md:text-2xl lg:text-3xl  sticky top-0 w-full bg-white/100 py-2'>
+      <div className='sticky top-0 w-full py-2 text-xl font-bold text-blue-500 md:text-2xl lg:text-3xl bg-white/90'>
         //Projects
       </div>
       <ProjectCard />
-      <footer className="bottom-0 text-center text-sm flex justify-center w-full">
+      <footer className="bottom-0 flex justify-center w-full text-sm text-center">
         <span className="mb-3">
           © {year} Aaditya Panchal All Rights Reserved.
         </span>

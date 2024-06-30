@@ -9,6 +9,16 @@ export const Experience = [
     Description: 'Created user-interface for ml database',
   },
   {
+    image: './assets/Neuro_Logo.png',
+    width: '80',
+    height: '',
+    alt: 'Logo',
+    Title: 'Neuro-Catalyst',
+    Role: 'Frontend Dev', 
+    Date: '/ June 2024 - Present',
+    Description: 'Created Website, ui, and design',
+  },
+  {
     image: './assets/AP-Visuals.png',
     width: '80',
     alt: 'Logo',

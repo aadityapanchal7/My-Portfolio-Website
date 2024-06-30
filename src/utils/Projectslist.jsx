@@ -1,5 +1,17 @@
 export const Projects = [
   {
+    image: './assets/Neuro_S.png',
+    width: '200',
+    height: '',
+    alt: 'Website_Image',
+    title: 'NeuroCatalyst',
+    date: 'June 2024',
+    description: 'A website I created for NeuroCatalyst a nonprofit organization aimed at combating Parkinsons',
+    link: 'https://neuro-catalyst.vercel.app/',
+    repo: 'https://github.com/aadityapanchal7/NeuroCatalyst/',
+    Languages: ['React', 'TailwindCSS', 'Javascript',],
+  },
+  {
     image: './assets/AP_Visuals_S.png',
     width: '200',
     height: '',
