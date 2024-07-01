@@ -1,7 +1,7 @@
 export const Projects = [
   {
     image: './assets/Neuro_S.png',
-    width: '200',
+    width: '230',
     height: '',
     alt: 'Website_Image',
     title: 'NeuroCatalyst',

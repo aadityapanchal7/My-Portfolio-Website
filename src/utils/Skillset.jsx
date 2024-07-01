@@ -7,7 +7,11 @@ export const Languages = [
   },
   {
     Language: 'Javascript',
-  }
+  },
+  {
+    Language: 'Typescript',
+  },
+
 ]
 
 export const Frameworks = [
@@ -19,7 +23,13 @@ export const Frameworks = [
   },
   {
     Framework: 'TailwindCSS',
-  }
+  },
+  {
+    Framework: 'Node.js',
+  },
+  {
+    Framework: 'Next.js',
+  },
 ]
 
 export const Tools = [
@@ -34,6 +44,9 @@ export const Tools = [
   },
   {
     Tool: 'Visual Studio Code',
+  },
+  {
+    Tool: 'MongoDB',
   },
   
 ]

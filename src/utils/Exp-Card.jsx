@@ -4,19 +4,18 @@ export const Experience = [
     width: '80',
     alt: 'Logo',
     Title: 'Stat-Oracle',
-    Role: 'Frontend Dev', 
+    Role: 'Frontend Dev | Founding Engineer', 
     Date: '/ June 2024 - Present',
-    Description: 'Created user-interface for ml database',
+    Description: 'Stat-Oracle is a soccer startup where users upload game clips to be processed with AI to gain stats and insights. Developed and optimized the user interface for a machine learning database, enhancing usability and user experience. Implemented a waitlist feature using the Waitlist API, improving customer acquisition and retention.',
   },
   {
     image: './assets/Neuro_Logo.png',
     width: '80',
-    height: '',
     alt: 'Logo',
     Title: 'Neuro-Catalyst',
     Role: 'Frontend Dev', 
     Date: '/ June 2024 - Present',
-    Description: 'Created Website, ui, and design',
+    Description: 'Neuro-Catalyst is a nonprofit organization dedicated to improving the lives of people diagnosed with Parkinson\'s disorder. Designed and implemented a comprehensive website, focusing on user interface and overall design to improve user engagement.',
   },
   {
     image: './assets/AP-Visuals.png',
@@ -25,7 +24,6 @@ export const Experience = [
     Title: 'AP-Visuals',
     Role: 'Founder', 
     Date: '/ May 2024 - Present',
-    Description: 'Freelancing company i created and developed',
+    Description: 'Founded and developed a freelancing company, delivering custom visual and web solutions to a diverse range of clients. Amassed over 30$ in sale so far',
   },
 ]
-
