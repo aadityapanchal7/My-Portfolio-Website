@@ -25,7 +25,7 @@ export const Projects = [
   },
   {
     image: './assets/RMA.png',
-    width: '210',
+    width: '240',
     height: '',
     alt: 'Website_Image',
     title: 'Research Made Accessible',
