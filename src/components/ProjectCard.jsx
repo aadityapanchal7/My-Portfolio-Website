@@ -15,7 +15,7 @@ function ProjectCard() {
           <div className="flex flex-wrap ">
             {/* Image */}
             <img
-              className="object-cover h-auto mb-5 "
+              className="object-cover h-auto mb-5 shadow-lg"
               src={item.image}
               alt={item.alt}
               width={item.width}
