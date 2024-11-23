@@ -1,5 +1,14 @@
 export const Experience = [
   {
+    image: './assets/utaustin.webp',
+    width: '80',
+    alt: 'Logo',
+    Title: 'UT-Austin',
+    Role: 'Research Assistant', 
+    Date: '/ August 2024 - Present',
+    Description: 'Conducting research at UT, being mentored by Chandrajit Bajaj, Head of CV over artificial intelligence',
+  },
+  {
     image: './assets/statoracle_logo.jpg',
     width: '80',
     alt: 'Logo',

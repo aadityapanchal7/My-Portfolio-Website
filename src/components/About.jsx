@@ -6,15 +6,15 @@ function About() {
 
   return (
     <div className='text-black lg:pb-20' id='About'>
-      <div className=' text-blue-500 font-bold text-xl md:text-2xl lg:text-3xl sticky top-0 w-full bg-white/90 py-2'>
+      <div className='sticky top-0 w-full py-2 text-xl font-bold text-blue-500 md:text-2xl lg:text-3xl bg-white/90'>
         //About
       </div>
-      <div className=' font-thin text-lg md:text-xl xl:text-2xl leading-relaxed space-y-5 mt-5'>
+      <div className='mt-5 space-y-5 text-lg font-thin leading-relaxed md:text-xl xl:text-2xl'>
         <p>
-          hey I'm Aaditya, a {age} year old programmer currently in my sophomore year of high school.  I have a passion for both technology, and business. I love creating new projects and exploring how they can be applied to solve real-world problems.
+          hey I'm Aaditya, a {age} year old programmer currently in my sophomore year of high school. I have a passion for both technology, and business. I love creating new projects and exploring how they can be applied to solve real-world problems.
         </p>
         <p>
-         When I'm not not sitting at my desk, you can usually find me watching soccer, hanging out with friends, or working out! I enjoy networking, and staying physically fit and active, feel free to text or contact me and we can have a chat!
+         When I'm not not sitting at my desk, you can usually find me playing tennis, hanging out with friends, or working out! I enjoy networking, playing sports, and just having fun in life, feel free to reach out and we can have a chat!
         </p>
       </div>
     </div>

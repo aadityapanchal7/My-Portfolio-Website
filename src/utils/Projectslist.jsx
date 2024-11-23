@@ -1,5 +1,17 @@
 export const Projects = [
   {
+    image: './assets/AAU.png',
+    width: '230',
+    height: '',
+    alt: 'Website_Image',
+    title: 'AAU Fundraising',
+    date: 'October 2024',
+    description: 'A website I created for Angels Among Us a nonprofit organization aimed at supporting cancer patients!',
+    link: 'https://aaufundraising.vercel.app/',
+    repo: 'https://github.com/aadityapanchal7/AAU',
+    Languages: ['React', 'TailwindCSS', 'Next.js',],
+  },
+  {
     image: './assets/Neuro_S.png',
     width: '230',
     height: '',
@@ -10,18 +22,6 @@ export const Projects = [
     link: 'https://cortexpd.vercel.app/',
     repo: 'https://github.com/aadityapanchal7/NeuroCatalyst/',
     Languages: ['React', 'TailwindCSS', 'Javascript',],
-  },
-  {
-    image: './assets/AP_Visuals_S.png',
-    width: '200',
-    height: '',
-    alt: 'Website_Image',
-    title: 'AP-Visuals',
-    date: 'June 2024',
-    description: 'A website I created to support my freelancing business. Multiple webpages, with flask backend.',
-    link: 'https://ap-visuals.vercel.app/',
-    repo: 'https://github.com/aadityapanchal7/ap-visuals',
-    Languages: ['HTML', 'TailwindCSS', 'Javascript', 'Flask'],
   },
   {
     image: './assets/RMA.png',
