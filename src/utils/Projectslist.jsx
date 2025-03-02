@@ -1,5 +1,17 @@
 export const Projects = [
   {
+    image: './assets/statoracle.png',
+    width: '230',
+    height: '',
+    alt: 'Website_Image',
+    title: 'Stat-Oracle',
+    date: 'February 2024',
+    description: 'A website I helped develop for Stat-Oracle, a startup based on providing data analytics for youth teams.',
+    link: 'https://statoracle.org/',
+    repo: '',
+    Languages: ['React', 'TailwindCSS', 'Next.js',],
+  },
+  {
     image: './assets/AAU.png',
     width: '230',
     height: '',
@@ -7,7 +19,7 @@ export const Projects = [
     title: 'AAU Fundraising',
     date: 'October 2024',
     description: 'A website I created for Angels Among Us a nonprofit organization aimed at supporting cancer patients!',
-    link: 'https://aaufundraising.vercel.app/',
+    link: 'https://aaufundraising.org/',
     repo: 'https://github.com/aadityapanchal7/AAU',
     Languages: ['React', 'TailwindCSS', 'Next.js',],
   },
