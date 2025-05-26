@@ -1,5 +1,23 @@
 export const Experience = [
   {
+    image: './assets/seekir_logo.jpg',
+    width: '80',
+    alt: 'Logo',
+    Title: 'Seekir',
+    Role: 'Co-Founder', 
+    Date: '/ April 2025 - Present',
+    Description: 'Co-founded Seekir, a startup connecting students to research opportunities. Developed the website using Next.js and TailwindCSS, focusing on user experience and functionality. Implemented features to streamline the application process for students and researchers.',
+  },
+  {
+    image: './assets/emory.png',
+    width: '80',
+    alt: 'Logo',
+    Title: 'Emory',
+    Role: 'Research Assistant', 
+    Date: '/ May 2025 - Present',
+    Description: 'Conducting research at Emory University, Natural language processing, and bioinformatics',
+  },
+  {
     image: './assets/utaustin.webp',
     width: '80',
     alt: 'Logo',
@@ -25,14 +43,5 @@ export const Experience = [
     Role: 'Frontend Dev', 
     Date: '/ June 2024 - Present',
     Description: 'CortexPD is a nonprofit organization dedicated to improving the lives of people diagnosed with Parkinson\'s disorder. Designed and implemented a comprehensive website, focusing on user interface and overall design to improve user engagement.',
-  },
-  {
-    image: './assets/AP-Visuals.png',
-    width: '80',
-    alt: 'Logo',
-    Title: 'AP-Visuals',
-    Role: 'Founder', 
-    Date: '/ May 2024 - Present',
-    Description: 'Founded and developed a freelancing company, delivering custom visual and web solutions to a diverse range of clients. Amassed over 30$ in sale so far',
   },
 ]

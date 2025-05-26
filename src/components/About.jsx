@@ -9,7 +9,7 @@ function About() {
       <div className='sticky top-0 w-full py-2 text-xl font-bold text-blue-500 md:text-2xl lg:text-3xl bg-white/90'>
         //About
       </div>
-      <div className='mt-5 space-y-5 text-lg font-thin leading-relaxed md:text-xl xl:text-2xl'>
+      <div className='mt-5 space-y-5 text-lg font-thin leading-normal md:text-xl xl:text-2xl'>
         <p>
           hey I'm Aaditya, a {age} year old programmer currently in my sophomore year of high school. I have a passion for both technology, and public health. I love creating new projects and exploring how they can be applied to solve real-world problems.
         </p>
